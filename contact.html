@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./Images/Webalys-Kameleon.pics-Hacker.ico">
+
+
+    <title>Icode - Heaven for programmeers</title>
+    <style>
+        .dropdown-menu li a {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">iCoders</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link mx-2 active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item  mx-2">
+                        <a class="nav-link " href="/about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown mx-1" active>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Free Tutorial
+                        </a>
+                        <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=mXjZQX3UzOs&t=32385s">Android
+                                    Development</a>
+                            </li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.youtube.com/playlist?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg">Web
+                                    Development</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=-5Fje4rPHr0">Editing</a>
+                            </li>
+                            <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=VQAwe1zT8D8">Graphic
+                                    Designing</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link active" href="./contact.html">Contact us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                </form>
+                <div class="mx-2">
+                    <buttton class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#loginModal">LogIn</buttton>
+                    <buttton class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#SignModal">SignIN</buttton>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Button trigger modal -->
+    
+    
+    <!-- Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" placeholder="*Enter you Email address"
+                                id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" placeholder="*Enter your password"
+                                id="exampleInputPassword1">
+                        </div>
+                        <!-- <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">I have read the  Terms and Conditions</label>
+                            </div> -->
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Button trigger modal -->
+    
+    
+    <!-- Modal -->
+    <div class="modal fade" id="SignModal" tabindex="-1" aria-labelledby="SignModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="SignModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <label class="form-label">Enter your Name</label>
+    
+                        <div class="row my-2">
+                            <div class="col">
+    
+                                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Enter you Mobile Number</label>
+                            <input type="email" class="form-control" placeholder="*Mobile Number" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+    
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" placeholder="*Enter you Email address"
+                                id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" placeholder="*Enter your password"
+                                id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Comfirm Password</label>
+                            <input type="password" class="form-control" placeholder="*Re-enter your password"
+                                id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">I have read the
+                                <a href="./terms.html">Terms and Conditions</a></label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container my-4">
+<form class="row g-3">
+    <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Email</label>
+        <input type="email" class="form-control" placeholder="Enter your email" id="inputEmail4">
+    </div>
+    <div class="col-md-6">
+        <label for="inputPassword4" class="form-label">Password</label>
+        <input type="password" class="form-control" placeholder="Enter your password" id="inputPassword4">
+    </div>
+    <div class="col-12">
+        <label for="inputAddress" class="form-label">Home Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    </div>
+    <div class="col-12">
+        <label for="inputAddress2" class="form-label">Office Address</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+    </div>
+    <!-- <div class="col-md-6">
+        <label for="inputCity" class="form-label">City</label>
+        <input type="text" class="form-control" id="inputCity">
+    </div> -->
+        <div class="col-md-4">
+            <label for="inputState" class="form-label">City</label>
+            <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>Banglore</option>
+                <option>Delhi</option>
+                <option>Ranchi</option>
+            </select>
+        </div>
+    <div class="col-md-4">
+        <label for="inputState" class="form-label">State</label>
+        <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>Andhra Pradesh (AP)</option>
+            <option>Arunachal Pradesh (AR)</option>
+            <option>Andhra Pradesh (AP)</option>
+            <option>Andhra Pradesh (AP)</option>
+            <option>Andhra Pradesh (AP)</option>
+            <option>Andhra Pradesh (AP)</option>
+        </select>
+    </div>
+    <div class="col-md-2">
+        <label for="inputZip" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="inputZip">
+    </div>
+    <div class="col-12">
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+                Member of iCoders
+            </label>
+        </div>
+        <div class="container my-4">
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Enter your message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+        </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <button type="submit" class="btn btn-danger">Sign in</button>
+    </div>
+</form>
+
+        <div class="container">
+            <footer class="py-3 my-4">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-muted">Home</a></li>
+                    <li class="nav-item"><a href="./tutorial.html" class="nav-link px-2 text-muted">Tutorial</a></li>
+                    <li class="nav-item"><a href="./contact.html" class="nav-link px-2 text-muted">Contact Us</a></li>
+                    <li class="nav-item"><a href="./about.html" class="nav-link px-2 text-muted">About</a></li>
+                </ul>
+                <p class="text-center text-muted">All Rights Revered &copy; Icode || pvt.ltd</p>
+            </footer>
+        </div>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+        -->
+</body>
+
+</html>
